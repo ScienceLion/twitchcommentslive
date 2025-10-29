@@ -4,6 +4,7 @@
 Bring Twitch chat as floating text, turn them into physical materials at random, or have chat discover creating specific materials.
 
 (Work In Progress: Full release will be coming soon, before 2026)
+
 (Demo Video: )
 
 ## Options
