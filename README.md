@@ -3,7 +3,9 @@
 
 Bring Twitch chat as floating text, turn them into physical materials at random, or have chat discover creating specific materials based on what they say.
 
-Use the emote server to download emotes as chatters use them, use it offline to pre-populate only approved emotes, or not use it at all (replaces emotes with spaces)
+Use the emote server to download emotes as chatters use them, use it offline to pre-populate only approved emotes, or not use it at all (replaces emotes with spaces).
+
+To run, connect to Twitch in Noita via the options menu streaming tab. To add server, download the server, edit settings.txt to change the channel, and open start_server (You may need to download java stuff to run it).
 
 (Work In Progress: Full release will be coming soon, before 2026)
 
@@ -11,6 +13,7 @@ Use the emote server to download emotes as chatters use them, use it offline to 
 
 ## Options
 General
+- Use Emote Server: 
 - Chat Lifetime: Lifetime of chat messages in-game (frames)
 - Display Rate: Number of frames between chat messages appearing
 - Chat In Front: If On, text will be in front of terrain and player
