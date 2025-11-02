@@ -1,7 +1,9 @@
 # twitchcommentslive
 ## A Noita mod that brings Twitch comments to life in-game
 
-Bring Twitch chat as floating text, turn them into physical materials at random, or have chat discover creating specific materials.
+Bring Twitch chat as floating text, turn them into physical materials at random, or have chat discover creating specific materials based on what they say.
+
+Use the emote server to download emotes as chatters use them, use it offline to pre-populate only approved emotes, or not use it at all (replaces emotes with spaces)
 
 (Work In Progress: Full release will be coming soon, before 2026)
 
