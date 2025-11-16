@@ -17,8 +17,11 @@ To run, connect to Twitch in Noita via the options menu Streaming tab. To add se
 
 ## Recommended Options
 Speed running mode: Physical conversion off
+
 Maximum chat chaos: Physical conversion on, Random materials, Announce off, Static seed on, Pause off
+
 For casual pace, longer chat lifetime and shorter display rate.
+
 For rapid chatters, as short as you can read chat lifetime, longer display rate to manage, use moderation to put character and emote limits.
 
 ## Options
