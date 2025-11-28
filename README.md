@@ -13,7 +13,7 @@ To run, connect to Twitch in Noita via the options menu Streaming tab. To add se
 
 (Work In Progress: Full release will be coming soon, before 2026)
 
-(Demo Video: )
+[Demo Video](https://www.youtube.com/watch?v=M359qFks2uo)
 
 ## Recommended Options
 Speed running mode: Physical conversion off
