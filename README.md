@@ -2,8 +2,9 @@
 ## A Noita mod that brings Twitch comments to life in-game
 
 Bring Twitch chat in game as floating text, turn them into physical materials at random, or have chat discover creating specific materials based on what they say.
+With Static Seed mode on, an example would be a chatter says "bald", it appears in game, and turns into polymorph. "bald" will ALWAYS turn into polymorph for this run. While "sweat" turns into another material, like acid. For each run, chat gets to discover what their messages turn into, allowing them to choose to help or hurt the streamer.
 
-Subscribe to the [workshop mod](blank), or download the twitchcommentslive folder to your Noita/mods folder.
+Subscribe to the [workshop mod](blank), or download the twitchcommentslive folder to your Noita mods folder.
 
 [download emote server](https://github.com/ScienceLion/twitchcommentslive/tree/main)
 
@@ -22,7 +23,7 @@ Maximum chat chaos: Physical conversion on, Random materials, Announce off, Stat
 
 For casual pace, longer chat lifetime and shorter display rate.
 
-For rapid chatters, as short as you can read chat lifetime, longer display rate to manage, use moderation to put character and emote limits.
+For rapid chatters, set chat lifetime as short as you need to read, set display rate to large number to limit how fast materials spammed at you, use moderation to put character and emote limits.
 
 ## Options
 General
