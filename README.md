@@ -7,6 +7,7 @@ With Static Seed mode on, an example would be a chatter says "bald", it appears 
 Subscribe to the [workshop mod](blank), or download the twitchcommentslive folder to your Noita mods folder.
 
 [download emote server](https://github.com/ScienceLion/twitchcommentslive/tree/main)
+Requires [Node](https://nodejs.org/)
 
 Use the emote server to download emotes as chatters use them, use it offline to pre-populate only approved emotes, or not use it at all (replaces emotes with spaces).
 
