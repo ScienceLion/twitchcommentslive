@@ -60,7 +60,7 @@ const decodeGif = require("decode-gif");
 const tmi = require("tmi.js");
 
 let streamer = "";
-let MOD_IMG_FILE_PATH = path.normalize("C:\\Program Files (x86)\\Steam\\steamapps\\common\\Noita\\data\\twitchcommentslive\\");
+let NOITA_DATA_PATH = "";
 let SERVER_STATUS_FILE = "";
 //obtain settings
 try {
@@ -83,8 +83,10 @@ try {
   });
   streamer = settings.streamer.toLowerCase();
   SERVER_STATUS_FILE = path.join(settings.MOD_FILE_PATH, "files", "servercheck.txt");
+  NOITA_DATA_PATH = path.join(settings.NOITA_DATA_PATH, "data", "twitchcommentslive");
   console.log(`streamer: ${streamer}`);
-  console.log(`MOD_IMG_FILE_PATH: ${MOD_IMG_FILE_PATH}`);
+  console.log(`MOD_FILE_PATH: ${settings.MOD_FILE_PATH}`);
+  console.log(`NOITA_DATA_PATH: ${NOITA_DATA_PATH}`);
 } catch (err) {
   console.error('Error reading settings:', err);
 }
@@ -98,8 +100,8 @@ function makeDir(dirPath) {
         }
     }
 }
-makeDir(path.join(MOD_IMG_FILE_PATH,"gfx"));
-makeDir(path.join(MOD_IMG_FILE_PATH,"img"));
+makeDir(path.join(NOITA_DATA_PATH,"gfx"));
+makeDir(path.join(NOITA_DATA_PATH,"img"));
 //write heartbeat
 function writeTimestamp() {
     // Get the current Unix timestamp in seconds
@@ -142,7 +144,7 @@ function convertToWidePng(result, frameData) {
 }
 
 async function makeImageFile(url, filename) {
-	const imageFilePath = path.join(MOD_IMG_FILE_PATH, "gfx", `${filename}.png`);
+	const imageFilePath = path.join(NOITA_DATA_PATH, "gfx", `${filename}.png`);
 
     if (fs.existsSync(imageFilePath)) {
 		//file exists
@@ -156,7 +158,7 @@ async function makeImageFile(url, filename) {
 		try {
 			const res = await axios({ method: "get", url: url, responseType: "arraybuffer" });
 			const buffer = new Buffer.from(res.data)
-			const gfxDir = path.join(MOD_IMG_FILE_PATH, "gfx");
+			const gfxDir = path.join(NOITA_DATA_PATH, "gfx");
 			if (buffer[0] == 0x89) {
 				// Make PNG
 				const metadata = await sharp(buffer).metadata();
@@ -194,8 +196,8 @@ async function makeImageFile(url, filename) {
 function makeImageXML(filename, width, height) {
 	const offsetX = Math.floor(width / 2);
     const offsetY = Math.floor(height / 2);
-	const imgDir = path.join(MOD_IMG_FILE_PATH, "img");
-    const gfxDir = path.join(MOD_IMG_FILE_PATH, "gfx");
+	const imgDir = path.join(NOITA_DATA_PATH, "img");
+    const gfxDir = path.join(NOITA_DATA_PATH, "gfx");
     if (!fs.existsSync(path.join(imgDir, `img_${filename}.xml`))) {
         fs.writeFileSync(path.join(imgDir, `img_${filename}.xml`),
             `<Entity tags="prop"><VelocityComponent/><SpriteComponent z_index="1" image_file="data/twitchcommentslive/gfx/img_gfx_${filename}.xml" offset_x="${offsetX}" offset_y="${offsetY}"></SpriteComponent></Entity>`, "utf8")
@@ -208,8 +210,8 @@ function makeImageXML(filename, width, height) {
 function makeAnimeImageXML(filename, width, height, frameCount, time) {
 	const offsetX = Math.floor(width / 2);
     const offsetY = Math.floor(height / 2);
-	const imgDir = path.join(MOD_IMG_FILE_PATH, "img");
-    const gfxDir = path.join(MOD_IMG_FILE_PATH, "gfx");
+	const imgDir = path.join(NOITA_DATA_PATH, "img");
+    const gfxDir = path.join(NOITA_DATA_PATH, "gfx");
    if (!fs.existsSync(path.join(imgDir, `img_${filename}.xml`))) {
         fs.writeFileSync(path.join(imgDir, `img_${filename}.xml`),
             `<Entity tags="prop"><VelocityComponent/><SpriteComponent z_index="1" image_file="data/twitchcommentslive/gfx/img_gfx_${filename}.xml" offset_x="${offsetX}" offset_y="${offsetY}"></SpriteComponent></Entity>`, "utf8")
