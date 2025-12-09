@@ -10,7 +10,7 @@ Subscribe to the [workshop mod](blank), or download the twitchcommentslive folde
 
 Use the emote server to download emotes as chatters use them, use it offline to pre-populate only approved emotes, or not use it at all (replaces emotes with spaces).
 
-To run, connect to Twitch in Noita via the options menu Streaming tab. To add server, download the server here, edit settings.txt to change the channel, and open start_server (You may need to download java stuff to run it).
+To run, connect to Twitch in Noita via the options menu Streaming tab. To add server, download the server here, edit settings.txt to change the channel, and open start_server.
 
 (Work In Progress: Full release will be coming soon, before 2026)
 
