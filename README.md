@@ -2,6 +2,7 @@
 ## A Noita mod that brings Twitch comments to life in-game
 
 Bring Twitch chat in game as floating text, turn them into physical materials at random, or have chat discover creating specific materials based on what they say.
+Makes Twitch chat messages show up as in-game letters. Have your chat interact by also turning on physical conversion, where the letters turn into physical materials. Make them random, or turn on static seed and have messages tied to materials made. This way, chat plays a game of trying to find out what message becomes healthium, gold, instant death, etc. Every run is different! Loads of settings to play casually, with absolute chaos, small chats, large chats. Also supports emotes by running a script to convert emotes into sprites.
 With Static Seed mode on, an example would be a chatter says "bald", it appears in game, and turns into polymorph. "bald" will ALWAYS turn into polymorph for this run. While "sweat" turns into another material, like acid. For each run, chat gets to discover what their messages turn into, allowing them to choose to help or hurt the streamer.
 
 Subscribe to the [workshop mod](blank), or download the twitchcommentslive folder to your Noita mods folder.
@@ -12,7 +13,7 @@ Use the emote server to download emotes as chatters use them, use it offline to 
 
 To run, <ins>**connect to Twitch in Noita via the options menu Streaming tab**</ins>.
 
-To add server, download the server, **edit settings.txt** to change the channel. If Noita or your Steam Library is at a different location than the settings, put in the correct location. On Windows, you must use double backslash ("\\\\") for folders, not just a single backslash. Open start_server (If it closes, you may need to run a command prompt as administrator, navigate to server folder, and run start_server).
+To add server, download the server, **edit settings.txt** to change the channel. If Noita or your Steam Library is at a different location than the settings, put in the correct location. On Windows, you must use double backslash ("\\\\") for folders, not just a single backslash. For Linux, use forward slash "/". Open start_server (If it closes, you may need to run a command prompt as administrator, navigate to server folder, and run start_server).
 
 [Demo Video](https://www.youtube.com/watch?v=M359qFks2uo)
 
