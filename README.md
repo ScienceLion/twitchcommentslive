@@ -52,6 +52,8 @@ Moderation
 - Maximum Characters: Do not display if chat message is over this many characters. Setting this to 0 essentialy creates emote only mode.
 - Maximum Emotes: Do not display if chat message is over this many emotes
 
+Thanks to [syagami](https://www.twitch.tv/syagami) for in-game comment and emote code.
+
 Support me at [PayPal](https://www.paypal.me/scienceliontwitch)
 
 <img width="500" height="500" alt="qrcode" src="https://github.com/user-attachments/assets/f04ab628-1cc6-448b-a81e-bbaba46948ff" />
