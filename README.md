@@ -17,9 +17,9 @@ To add server, download the server, edit settings.txt to change the channel. If 
 [Demo Video](https://www.youtube.com/watch?v=M359qFks2uo)
 
 ## Recommended Options
-Speed running mode: Physical conversion off
+Speed running mode: Physical Conversion: Off
 
-Maximum chat chaos: Physical conversion on, Random materials, Announce off, Static seed on, Pause off
+Maximum chat chaos: Physical Conversion: On, Conversion Material: Random , Announce: Off, Static Seed: On, Pause: Off
 
 For casual pace, longer chat lifetime and shorter display rate.
 
