@@ -12,14 +12,14 @@ Use the emote server to download emotes as chatters use them, use it offline to 
 
 To run, <ins>**connect to Twitch in Noita via the options menu Streaming tab**</ins>.
 
-To add server, download the server, edit settings.txt to change the channel. If Noita or your Steam Library is at a different location than the settings, put in the correct location. On Windows, you must use double backslash ("\\\\") for folders, not just a single backslash. Open start_server (If it closes, you may need to run a command prompt as administrator, navigate to server folder, and run start_server).
+To add server, download the server, **edit settings.txt** to change the channel. If Noita or your Steam Library is at a different location than the settings, put in the correct location. On Windows, you must use double backslash ("\\\\") for folders, not just a single backslash. Open start_server (If it closes, you may need to run a command prompt as administrator, navigate to server folder, and run start_server).
 
 [Demo Video](https://www.youtube.com/watch?v=M359qFks2uo)
 
 ## Recommended Options
-Speed running mode: Physical Conversion: Off
+**Speed running mode:** Physical Conversion: Off
 
-Maximum chat chaos: Physical Conversion: On, Conversion Material: Random , Announce: Off, Static Seed: On, Pause: Off
+**Maximum chat chaos:** Physical Conversion: On, Conversion Material: Random , Announce: Off, Static Seed: On, Pause: Off
 
 For casual pace, longer chat lifetime and shorter display rate.
 
