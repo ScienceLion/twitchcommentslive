@@ -5,7 +5,7 @@ Bring Twitch chat in game as floating text, turn them into physical materials at
 Makes Twitch chat messages show up as in-game letters. Have your chat interact by also turning on physical conversion, where the letters turn into physical materials. Make them random, or turn on static seed and have messages tied to materials made. This way, chat plays a game of trying to find out what message becomes healthium, gold, instant death, etc. Every run is different! Loads of settings to play casually, with absolute chaos, small chats, large chats. Also supports emotes by running a script to convert emotes into sprites.
 With Static Seed mode on, an example would be a chatter says "bald", it appears in game, and turns into polymorph. "bald" will ALWAYS turn into polymorph for this run. While "sweat" turns into another material, like acid. For each run, chat gets to discover what their messages turn into, allowing them to choose to help or hurt the streamer.
 
-Subscribe to the [workshop mod](blank), or download the twitchcommentslive folder to your Noita mods folder.
+Subscribe to the [workshop mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3606516759)).
 
 [Download emote server](https://github.com/ScienceLion/twitchcommentslive/blob/main/twitchcommentslive_server.zip); requires [Node](https://nodejs.org/)
 
